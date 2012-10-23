@@ -6,7 +6,7 @@
         INSERT INTO user_reviews VALUES ('${param.school_id}', '${param.name}', '${param.review}');
     </sql:update>
 </sql:transaction>
-
+<!-- Works! -->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
